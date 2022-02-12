@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = D:/work/2021-2022/Математическое моделирование/laboratory/hello
+[remote "mmlab01"]
+	url = https://github.com/KseniaKu/Matmodel_lab01.git
+	fetch = +refs/heads/*:refs/remotes/mmlab01/*
+[branch "master"]
+	remote = mmlab01
+	merge = refs/heads/master
